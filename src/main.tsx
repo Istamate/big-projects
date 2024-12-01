@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
+import WeatherApp from "./components/WeatherApp";
 import "./index.css";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/app",
-    element: <App />,
+    path: "/weather",
+    element: <WeatherApp />,
   },
 ]);
 

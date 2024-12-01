@@ -1,5 +1,4 @@
-import Post from "./components/FetchPost";\
-
+import Post from "./components/FetchPost";
 
 const App = () => {
   return (
